@@ -870,5 +870,5 @@ with gr.Blocks() as demo:
             download_all_btn,
         ],
     )
-
-demo.queue().launch(share=False, server_port=8000)
+if __name__ == "__main__":
+    demo.queue().launch(share=False, server_port=8000)
